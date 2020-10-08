@@ -4,5 +4,10 @@ import { getPokemonAction } from "../redux/pokeDuck";
 
 export const Pokemons = () => {
   const dispatch = useDispatch();
-  return <h1>list of pokemons</h1>;
+  return (
+    <>
+      <h1>list of pokemons</h1>
+      <button>Get Pokemons</button>
+    </>
+    )
 };
