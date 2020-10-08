@@ -14,10 +14,8 @@ export default function pokeReducer(state = initialData, action) {
     case GET_POKEMON_SUCCESS:
       return{...state, array: action.payload}
 
-      break;
-
     default:
-      break;
+      return state
   }
 }
 
