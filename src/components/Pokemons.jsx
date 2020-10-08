@@ -7,7 +7,7 @@ export const Pokemons = () => {
   return (
     <>
       <h1>list of pokemons</h1>
-      <button>Get Pokemons</button>
+      <button onClick={()=> dispatch(getPokemonAction())} >Get Pokemons</button>
     </>
     )
 };
