@@ -1,10 +1,11 @@
 import React from 'react';
+import { Pokemons } from './components/Pokemons';
 
 
 export function App() {
   return (
     <div >
-      no hay nada
+      <Pokemons/>
     </div>
   );
 }
