@@ -1,6 +1,6 @@
 import React from 'react';
 import {Provider} from 'react-redux'
-import { Pokemons } from './components/Pokemons';
+import { Pokemons } from './components/Pokemons/index';
 import generateStore from './redux/store'
 
 
